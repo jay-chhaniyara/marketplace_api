@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+*.log
+
+# Ignore local development settings
+*/settings/local.py
+
+# Ignore database
+*.sqlite3
+
+# Media files
+media/
+
+# Ignore static files (except if you're not using a separate server for static files)
+# Use collectstatic during deployment instead
+static/
+
+# Ignore all Django migration files
+**/migrations/
+
+# Ignore virtual environment
+venv/
+
+# Ignore coverage reports
+.coverage
+
+# Ignore pipenv
+Pipfile
+Pipfile.lock
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
